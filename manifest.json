@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "automate commit git pull request",
+  "description": "",
+  "version": "1",
+
+  "permissions": ["declarativeContent", "storage", "tabs"],
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
